@@ -30,7 +30,7 @@ function showMovies(movies) {
         <img src="${IMG_PATH + poster_path}" alt="${title}" />
         <div class="movie-info">
           <h3>${title}</h3>
-          <span class="${getClassByRate}">${vote_average}</span>
+          <span class="${getClassByRate(vote_average)}">${vote_average}</span>
         </div>
         <div class="overview">
           <h3>Overwiev</h3>
@@ -58,10 +58,10 @@ form.addEventListener('submit', (e) => {
 
     const searchTerm = search.value
 
-    if (searchTerm && searchTerm !== "") {
+    if (searchTerm && searchTerm !== '') {
         getMovies(SEARCH_API + searchTerm)
 
-        search.value = " "
+        search.value = ''
     } else {
         window.location.reload()
     }
