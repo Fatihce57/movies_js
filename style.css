@@ -12,10 +12,15 @@ body {
   background-color: var(--secondary-color);
 }
 
+.fatih{
+  color: #eee;
+  text-align: center;
+}
+
 header {
   padding: 1rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .search {
@@ -26,10 +31,11 @@ header {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
+  width: 25rem;
 }
 
 .search::placeholder {
-  color: #7378c5;
+  color: #ffffff;
 }
 
 .search:focus {
