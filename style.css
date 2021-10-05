@@ -12,7 +12,7 @@ body {
   background-color: var(--secondary-color);
 }
 
-.fatih{
+.fatih {
   color: #eee;
   text-align: center;
 }
@@ -107,6 +107,6 @@ main {
   transition: transform 0.3s ease-in;
 }
 
-.movie:hover .overview{
-    transform:translateY(0)
+.movie:hover .overview {
+  transform: translateY(0);
 }
